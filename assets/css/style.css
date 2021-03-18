@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,400&display=swap");
+
+:root {
+  --primary-font: "Cabin", sans-serif;
+  --secondary-font: "Herr Von Muellerhoff", cursive;
+  --body-font: "Cabin", sans-serif;
+  --primary-font-color-dark: #252525;
+  --primary-font-color-dark-opaque: #25252599;
+  --secondary-font-color: #c59d5f;
+  --body-font-color: #515151;
+}
+
+/*********
+  GLOBAL
+**********/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--body-font);
+  font-size: 10px;
+  color: var(--body-font-color);
+  scroll-behavior: smooth;
+}
+
+body {
+  overscroll-behavior: none;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  padding: 2rem 0;
+  border: 1px solid red;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 122.5rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  border: 1px solid green;
+}
+
+/*********
+  UTILITY
+**********/
+
+
+/*********
+  HEADER
+**********/
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav {
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+
+}
+
+.nav-item {
+  padding: 0 1rem;
+
+}
+
+
+
+/*********
+  HOME
+**********/
+.headline-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* left: 50%;
+  transform: translateY(50%); */
+}
+
+/*********
+  ABOUT
+**********/
+
+/*********
+  PORTFOLIO
+**********/
+
+/*********
+  CONTACT
+**********/
+
+/*********
+  FOOTER
+**********/
